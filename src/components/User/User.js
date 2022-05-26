@@ -25,37 +25,37 @@ const User = () => {
         toast.success(`User Deleted`)
     }
     return (
-        // <div class="overflow-x-auto container">
-        //     <h1 className="text-4xl"> All user : {user.data.length}</h1>
-        //     <table class="table table-zebra w-full">
+        <div class="overflow-x-auto container">
+            <h1 className="text-4xl"> All user : {user.data.length}</h1>
+            <table class="table table-zebra w-full">
 
-        //         <thead>
-        //             <tr>
-        //                 <th></th>
+                <thead>
+                    <tr>
+                        <th></th>
 
-        //                 <th>Email</th>
-        //                 <th >Make Admin</th>
-        //                 <th >Delete</th>
-        //             </tr>
-        //         </thead>
-        //         <tbody>
+                        <th>Email</th>
+                        <th >Make Admin</th>
+                        <th >Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
 
-        //             {
-        //                 users?.length > 0 && users.map((user, index) => <tr key={user._id}>
-        //                     <th>{index + 1}</th>
-        //                     <td>{user.email}</td>
-        //                     <td>{user.role !== 'admin' && <button onClick={() => makeAdmin(user.email, user.name)} className='btn-sm btn-success btn mr-4'>Make Admin</button>}</td>
+                    {
+                        users?.length > 0 && users.map((user, index) => <tr key={user._id}>
+                            <th>{index + 1}</th>
+                            <td>{user.email}</td>
+                            <td>{user.role !== 'admin' && <button onClick={() => makeAdmin(user.email, user.name)} className='btn-sm btn-success btn mr-4'>Make Admin</button>}</td>
 
-        //                     <td><button onClick={() => handleDeleteUser(user._id)} className='btn-sm btn btn-color'>Delete user</button></td>
+                            <td><button onClick={() => handleDeleteUser(user._id)} className='btn-sm btn btn-color'>Delete user</button></td>
 
-        //                 </tr>
+                        </tr>
 
-        //                 )
-        //             }
+                        )
+                    }
 
-        //         </tbody>
-        //     </table>
-        // </div>
+                </tbody>
+            </table>
+        </div>
     );
 };
 
