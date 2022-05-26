@@ -33,14 +33,14 @@ const MyPortfolio = () => {
 
             </div>
             <div class="divider"></div>
-            <div className='mb-4'>
+            {/* <div className='mb-4'>
                 <h1 className='text-2xl font-bold'>Project:</h1>
                 <ul className='list-disc list-inside '>
                     <li> <a className='text-info' target={"blank"} href="https://make-your-body-fit.firebaseapp.com/">Independant Service provider website</a></li>
                     <li> <a className='text-info' target={"blank"} href="https://musical-blancmange-491178.netlify.app/home">Product Analysis</a></li>
                     <li> <a className='text-info' target={"blank"} href="https://assignment-11-3a9a2.web.app/">Warehouse management site</a></li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 };
