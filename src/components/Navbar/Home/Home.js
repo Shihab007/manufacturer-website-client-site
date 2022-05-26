@@ -23,7 +23,7 @@ const Home = () => {
             <BusinessSummary></BusinessSummary>
             <Partners></Partners>
             <Reviews></Reviews>
-            {/* <GetInTouch></GetInTouch> */}
+            <GetInTouch></GetInTouch>
         </div>
     );
 };
