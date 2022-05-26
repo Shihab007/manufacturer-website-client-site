@@ -21,8 +21,8 @@ const Home = () => {
             </div>
             <Parts></Parts>
             <BusinessSummary></BusinessSummary>
-            {/* <Partners></Partners> */}
-            <Reviews></Reviews>
+            <Partners></Partners>
+            {/* <Reviews></Reviews> */}
             <GetInTouch></GetInTouch>
         </div>
     );
