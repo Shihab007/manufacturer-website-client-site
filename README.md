@@ -1,12 +1,4 @@
-# Getting Started with Create React App
+Zaka Parts (Manufacturer Web App)
 
-This project was fullstack with [Live Link](https://assignment-12-9a76f.web.app/?fbclid=IwAR3KNx3flGh49MdRViM6K2ONRNaov609lkNXdk3v_S5KWl2cTYTmYVidiiQ).
+Zaka Parts is a web app for buying and selling car parts, functioning as an online store. Users can easily browse, search for specific components, and add items to their shopping cart for seamless transactions. The app aims to enhance the online shopping experience for automotive enthusiasts and professionals.
 
-## Available Scripts
-
-- Admin Problem Solving
-- using express and mongodb
-- google sign in sign out
--using daisyui 
-- firbase deploying get live link and heroku deploying
-# manufacturer-website-client-side-NasirUddinNahid
